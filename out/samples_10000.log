@@ -1,0 +1,66 @@
+{'input_file': 'names.txt', 'work_dir': 'out', 'resume': True, 'sample_only': True, 'num_workers': 4, 'max_steps': -1, 'device': 'mps', 'seed': 3407, 'top_k': 20, 'type': 'transformer', 'n_layer': 8, 'n_head': 4, 'n_embd': 128, 'n_embd2': 64, 'batch_size': 32, 'learning_rate': 0.0005, 'weight_decay': 0.01}
+number of examples in the dataset: 32033
+max word length: 15
+number of unique characters in the vocabulary: 26
+vocabulary:
+abcdefghijklmnopqrstuvwxyz
+split up the dataset into 31033 training examples and 1000 test examples
+dataset determined that: vocab_size=27, block_size=16
+number of parameters: 1.59M
+model #params: 1595392
+resuming from existing model in the workdir
+--------------------------------------------------------------------------------
+18 samples that are in train:
+javi
+zayin
+lylah
+benz
+brisa
+adlee
+yadelyn
+damia
+nazariah
+giovanni
+alda
+ellie
+juliann
+lonan
+daven
+lana
+zakiyah
+aylani
+0 samples that are in test:
+32 samples that are new:
+juah
+lik
+brav
+nakifah
+malat
+sharira
+izsette
+arrian
+darry
+scayon
+dianie
+ahrabaya
+braylelor
+shivanjai
+ivanay
+aymin
+rusaa
+nalissa
+avannee
+colsins
+rayva
+dahian
+jerseav
+rubii
+eryna
+mansi
+nekoa
+marreet
+becklyn
+mohky
+alijan
+morja
+--------------------------------------------------------------------------------

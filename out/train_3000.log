@@ -1,0 +1,531 @@
+{'input_file': 'names.txt', 'work_dir': 'out', 'resume': True, 'sample_only': False, 'num_workers': 4, 'max_steps': 3000, 'device': 'mps', 'seed': 3407, 'top_k': -1, 'type': 'transformer', 'n_layer': 8, 'n_head': 4, 'n_embd': 128, 'n_embd2': 64, 'batch_size': 32, 'learning_rate': 0.0005, 'weight_decay': 0.01}
+number of examples in the dataset: 32033
+max word length: 15
+number of unique characters in the vocabulary: 26
+vocabulary:
+abcdefghijklmnopqrstuvwxyz
+split up the dataset into 31033 training examples and 1000 test examples
+dataset determined that: vocab_size=27, block_size=16
+number of parameters: 1.59M
+model #params: 1595392
+resuming from existing model in the workdir
+step 0 | loss 2.2445 | step time 718.07ms
+step 10 | loss 2.2441 | step time 40.18ms
+step 20 | loss 2.2001 | step time 41.30ms
+step 30 | loss 2.1557 | step time 43.31ms
+step 40 | loss 2.0040 | step time 42.45ms
+step 50 | loss 2.2626 | step time 38.88ms
+step 60 | loss 2.2230 | step time 39.35ms
+step 70 | loss 2.1461 | step time 38.47ms
+step 80 | loss 2.0853 | step time 38.40ms
+step 90 | loss 2.1716 | step time 38.26ms
+step 100 | loss 2.1132 | step time 37.38ms
+step 110 | loss 2.0906 | step time 38.64ms
+step 120 | loss 2.0728 | step time 38.52ms
+step 130 | loss 2.1788 | step time 38.54ms
+step 140 | loss 2.1495 | step time 38.65ms
+step 150 | loss 1.9953 | step time 38.51ms
+step 160 | loss 2.0649 | step time 39.43ms
+step 170 | loss 2.1657 | step time 38.44ms
+step 180 | loss 2.1599 | step time 38.26ms
+step 190 | loss 2.1661 | step time 38.50ms
+step 200 | loss 2.0803 | step time 38.43ms
+--------------------------------------------------------------------------------
+1 samples that are in train:
+zayin
+0 samples that are in test:
+9 samples that are new:
+crahlmo
+lik
+bral
+quei
+nakafalym
+malathe
+andrikale
+izserista
+ar
+--------------------------------------------------------------------------------
+step 210 | loss 2.0980 | step time 40.07ms
+step 220 | loss 2.0893 | step time 39.73ms
+step 230 | loss 2.1287 | step time 40.21ms
+step 240 | loss 2.1704 | step time 40.48ms
+step 250 | loss 2.1164 | step time 40.11ms
+step 260 | loss 2.1572 | step time 40.16ms
+step 270 | loss 2.1808 | step time 39.33ms
+step 280 | loss 2.0243 | step time 39.41ms
+step 290 | loss 2.1196 | step time 39.13ms
+step 300 | loss 2.1096 | step time 39.54ms
+step 310 | loss 1.9962 | step time 40.19ms
+step 320 | loss 2.0091 | step time 40.23ms
+step 330 | loss 2.1325 | step time 40.22ms
+step 340 | loss 2.1664 | step time 40.32ms
+step 350 | loss 2.0574 | step time 39.90ms
+step 360 | loss 2.1183 | step time 41.00ms
+step 370 | loss 2.1533 | step time 39.01ms
+step 380 | loss 1.9871 | step time 40.16ms
+step 390 | loss 2.1123 | step time 40.24ms
+step 400 | loss 2.1235 | step time 39.62ms
+--------------------------------------------------------------------------------
+4 samples that are in train:
+jahari
+mariel
+kadar
+amari
+0 samples that are in test:
+6 samples that are new:
+nikhie
+hiyayriona
+dumari
+macurta
+auliona
+kamini
+--------------------------------------------------------------------------------
+step 410 | loss 2.0059 | step time 40.48ms
+step 420 | loss 2.2483 | step time 40.40ms
+step 430 | loss 2.0200 | step time 40.67ms
+step 440 | loss 2.1616 | step time 40.45ms
+step 450 | loss 2.0863 | step time 40.50ms
+step 460 | loss 2.1537 | step time 40.63ms
+step 470 | loss 2.2782 | step time 39.92ms
+step 480 | loss 2.1344 | step time 40.08ms
+step 490 | loss 2.0193 | step time 40.37ms
+step 500 | loss 2.0391 | step time 40.59ms
+step 500 train loss: 2.097477436065674 test loss: 2.0837655067443848
+test loss 2.0837655067443848 is the best so far, saving model to out/model.pt
+step 510 | loss 2.0703 | step time 39.55ms
+step 520 | loss 2.0573 | step time 39.78ms
+step 530 | loss 2.0911 | step time 40.81ms
+step 540 | loss 2.0963 | step time 39.54ms
+step 550 | loss 2.1823 | step time 39.72ms
+step 560 | loss 2.3325 | step time 39.53ms
+step 570 | loss 2.0306 | step time 39.56ms
+step 580 | loss 2.1468 | step time 39.50ms
+step 590 | loss 2.1148 | step time 39.53ms
+step 600 | loss 1.9700 | step time 39.47ms
+--------------------------------------------------------------------------------
+5 samples that are in train:
+quianna
+aniella
+zamina
+tyon
+mailey
+0 samples that are in test:
+5 samples that are new:
+juynn
+tynly
+dillea
+kailsy
+tavenie
+--------------------------------------------------------------------------------
+step 610 | loss 2.0425 | step time 41.38ms
+step 620 | loss 2.2123 | step time 40.56ms
+step 630 | loss 2.1506 | step time 40.70ms
+step 640 | loss 2.1232 | step time 38.29ms
+step 650 | loss 2.1419 | step time 41.23ms
+step 660 | loss 2.1298 | step time 39.48ms
+step 670 | loss 2.0764 | step time 40.21ms
+step 680 | loss 2.0390 | step time 40.61ms
+step 690 | loss 1.9992 | step time 40.17ms
+step 700 | loss 2.1813 | step time 39.82ms
+step 710 | loss 2.0281 | step time 39.95ms
+step 720 | loss 2.1153 | step time 39.51ms
+step 730 | loss 2.2208 | step time 39.79ms
+step 740 | loss 2.0771 | step time 39.45ms
+step 750 | loss 2.2038 | step time 39.44ms
+step 760 | loss 2.0936 | step time 39.50ms
+step 770 | loss 2.0816 | step time 40.19ms
+step 780 | loss 2.0446 | step time 39.27ms
+step 790 | loss 2.0034 | step time 40.10ms
+step 800 | loss 2.0430 | step time 39.44ms
+--------------------------------------------------------------------------------
+2 samples that are in train:
+kendrie
+alanni
+0 samples that are in test:
+8 samples that are new:
+cyjase
+phirot
+sperion
+feosictra
+lamaro
+aastyn
+haxley
+mik
+--------------------------------------------------------------------------------
+step 810 | loss 2.0721 | step time 41.20ms
+step 820 | loss 2.0167 | step time 40.52ms
+step 830 | loss 2.0136 | step time 41.10ms
+step 840 | loss 2.0045 | step time 39.67ms
+step 850 | loss 2.0809 | step time 40.46ms
+step 860 | loss 1.9743 | step time 41.05ms
+step 870 | loss 2.0064 | step time 39.46ms
+step 880 | loss 2.0174 | step time 40.09ms
+step 890 | loss 1.9465 | step time 42.72ms
+step 900 | loss 2.0775 | step time 39.88ms
+step 910 | loss 2.0411 | step time 38.80ms
+step 920 | loss 1.9780 | step time 39.45ms
+step 930 | loss 2.0090 | step time 39.95ms
+step 940 | loss 2.0347 | step time 38.37ms
+step 950 | loss 1.9676 | step time 39.91ms
+step 960 | loss 2.0183 | step time 40.52ms
+step 970 | loss 2.0879 | step time 39.92ms
+step 980 | loss 1.9738 | step time 40.19ms
+step 990 | loss 2.1926 | step time 40.59ms
+step 1000 | loss 2.0153 | step time 39.62ms
+step 1000 train loss: 2.0544376373291016 test loss: 2.051649570465088
+test loss 2.051649570465088 is the best so far, saving model to out/model.pt
+--------------------------------------------------------------------------------
+3 samples that are in train:
+tajah
+smaya
+ayan
+0 samples that are in test:
+7 samples that are new:
+lousef
+bayinli
+eya
+kelim
+aco
+marcelynn
+nekwy
+--------------------------------------------------------------------------------
+step 1010 | loss 2.0849 | step time 40.80ms
+step 1020 | loss 2.0029 | step time 39.87ms
+step 1030 | loss 2.0003 | step time 39.75ms
+step 1040 | loss 1.9218 | step time 38.54ms
+step 1050 | loss 2.0723 | step time 38.52ms
+step 1060 | loss 1.9827 | step time 38.70ms
+step 1070 | loss 2.2017 | step time 38.51ms
+step 1080 | loss 2.0004 | step time 39.63ms
+step 1090 | loss 2.1128 | step time 38.42ms
+step 1100 | loss 2.1043 | step time 39.12ms
+step 1110 | loss 1.9663 | step time 39.05ms
+step 1120 | loss 2.1404 | step time 38.72ms
+step 1130 | loss 2.0723 | step time 38.48ms
+step 1140 | loss 2.0999 | step time 39.68ms
+step 1150 | loss 2.0708 | step time 39.86ms
+step 1160 | loss 2.0993 | step time 39.81ms
+step 1170 | loss 2.0702 | step time 39.74ms
+step 1180 | loss 2.1612 | step time 38.83ms
+step 1190 | loss 1.9815 | step time 37.89ms
+step 1200 | loss 1.9946 | step time 39.12ms
+--------------------------------------------------------------------------------
+1 samples that are in train:
+tavyn
+0 samples that are in test:
+9 samples that are new:
+dhaly
+gavani
+jized
+gren
+callenani
+joverley
+deneddy
+sons
+aleker
+--------------------------------------------------------------------------------
+step 1210 | loss 2.0330 | step time 38.82ms
+step 1220 | loss 1.9692 | step time 39.82ms
+step 1230 | loss 1.9930 | step time 39.29ms
+step 1240 | loss 1.9769 | step time 39.78ms
+step 1250 | loss 2.1076 | step time 39.21ms
+step 1260 | loss 1.9213 | step time 39.33ms
+step 1270 | loss 1.9574 | step time 38.58ms
+step 1280 | loss 2.0956 | step time 38.38ms
+step 1290 | loss 2.1097 | step time 38.36ms
+step 1300 | loss 1.9080 | step time 38.76ms
+step 1310 | loss 2.0601 | step time 38.41ms
+step 1320 | loss 1.9897 | step time 38.25ms
+step 1330 | loss 2.0912 | step time 38.14ms
+step 1340 | loss 2.0193 | step time 38.83ms
+step 1350 | loss 2.0070 | step time 38.21ms
+step 1360 | loss 2.0269 | step time 38.13ms
+step 1370 | loss 2.0690 | step time 38.92ms
+step 1380 | loss 1.9882 | step time 38.96ms
+step 1390 | loss 1.9052 | step time 38.43ms
+step 1400 | loss 1.9284 | step time 39.07ms
+--------------------------------------------------------------------------------
+0 samples that are in train:
+0 samples that are in test:
+10 samples that are new:
+mudi
+yaklee
+josahan
+mbarix
+mirxon
+arnatna
+rotersey
+dumaan
+ahra
+hameya
+--------------------------------------------------------------------------------
+step 1410 | loss 2.0056 | step time 38.61ms
+step 1420 | loss 2.0326 | step time 38.04ms
+step 1430 | loss 1.9312 | step time 38.53ms
+step 1440 | loss 1.9750 | step time 40.70ms
+step 1450 | loss 1.9915 | step time 40.01ms
+step 1460 | loss 1.9795 | step time 40.56ms
+step 1470 | loss 1.9147 | step time 40.80ms
+step 1480 | loss 2.0357 | step time 40.16ms
+step 1490 | loss 2.1822 | step time 40.18ms
+step 1500 | loss 2.0498 | step time 40.42ms
+step 1500 train loss: 1.995679497718811 test loss: 2.0211803913116455
+test loss 2.0211803913116455 is the best so far, saving model to out/model.pt
+step 1510 | loss 1.9902 | step time 39.56ms
+step 1520 | loss 1.9749 | step time 41.41ms
+step 1530 | loss 1.9597 | step time 40.55ms
+step 1540 | loss 2.0522 | step time 40.14ms
+step 1550 | loss 1.9548 | step time 38.49ms
+step 1560 | loss 2.0349 | step time 40.07ms
+step 1570 | loss 1.8926 | step time 40.54ms
+step 1580 | loss 2.0179 | step time 40.46ms
+step 1590 | loss 2.0100 | step time 41.43ms
+step 1600 | loss 1.9556 | step time 40.23ms
+--------------------------------------------------------------------------------
+2 samples that are in train:
+daiton
+sayla
+0 samples that are in test:
+8 samples that are new:
+alinse
+roleigina
+samriel
+ziriz
+mavehhay
+kemriigh
+ainas
+chocelyn
+--------------------------------------------------------------------------------
+step 1610 | loss 1.7734 | step time 40.89ms
+step 1620 | loss 1.9289 | step time 40.20ms
+step 1630 | loss 2.0714 | step time 40.88ms
+step 1640 | loss 1.9290 | step time 39.86ms
+step 1650 | loss 1.8984 | step time 38.51ms
+step 1660 | loss 1.8560 | step time 39.90ms
+step 1670 | loss 2.0324 | step time 40.40ms
+step 1680 | loss 2.0547 | step time 40.77ms
+step 1690 | loss 2.0278 | step time 43.86ms
+step 1700 | loss 2.0387 | step time 40.56ms
+step 1710 | loss 1.9751 | step time 40.37ms
+step 1720 | loss 2.0890 | step time 39.47ms
+step 1730 | loss 2.0464 | step time 39.66ms
+step 1740 | loss 1.8658 | step time 38.87ms
+step 1750 | loss 1.9965 | step time 40.85ms
+step 1760 | loss 1.9326 | step time 40.12ms
+step 1770 | loss 2.1322 | step time 40.55ms
+step 1780 | loss 1.9251 | step time 40.11ms
+step 1790 | loss 2.1270 | step time 40.20ms
+step 1800 | loss 1.8580 | step time 40.13ms
+--------------------------------------------------------------------------------
+4 samples that are in train:
+elo
+casin
+artis
+cori
+0 samples that are in test:
+6 samples that are new:
+mirat
+brinand
+ezu
+raener
+ediya
+marsyn
+--------------------------------------------------------------------------------
+step 1810 | loss 1.9013 | step time 38.90ms
+step 1820 | loss 2.0215 | step time 40.38ms
+step 1830 | loss 1.9623 | step time 40.88ms
+step 1840 | loss 1.8529 | step time 40.98ms
+step 1850 | loss 1.8735 | step time 38.66ms
+step 1860 | loss 1.8333 | step time 40.91ms
+step 1870 | loss 2.1108 | step time 39.71ms
+step 1880 | loss 1.9060 | step time 40.34ms
+step 1890 | loss 1.9141 | step time 40.16ms
+step 1900 | loss 1.9981 | step time 40.22ms
+step 1910 | loss 2.0939 | step time 39.63ms
+step 1920 | loss 2.0176 | step time 41.19ms
+step 1930 | loss 2.0992 | step time 38.97ms
+step 1940 | loss 1.9368 | step time 39.93ms
+step 1950 | loss 1.8615 | step time 43.22ms
+step 1960 | loss 1.9632 | step time 39.97ms
+step 1970 | loss 1.8100 | step time 40.53ms
+step 1980 | loss 1.8639 | step time 39.88ms
+step 1990 | loss 2.1021 | step time 39.94ms
+step 2000 | loss 2.0025 | step time 40.49ms
+step 2000 train loss: 1.9740451574325562 test loss: 2.006038188934326
+test loss 2.006038188934326 is the best so far, saving model to out/model.pt
+--------------------------------------------------------------------------------
+4 samples that are in train:
+zaliyah
+aarit
+sky
+malex
+0 samples that are in test:
+6 samples that are new:
+becklin
+calien
+nesaol
+inanya
+enrica
+brajsyn
+--------------------------------------------------------------------------------
+step 2010 | loss 2.0125 | step time 40.39ms
+step 2020 | loss 1.9990 | step time 41.35ms
+step 2030 | loss 1.9789 | step time 39.66ms
+step 2040 | loss 1.9037 | step time 40.72ms
+step 2050 | loss 2.0118 | step time 40.85ms
+step 2060 | loss 1.9712 | step time 40.90ms
+step 2070 | loss 2.0085 | step time 40.82ms
+step 2080 | loss 2.0625 | step time 40.24ms
+step 2090 | loss 1.9270 | step time 39.83ms
+step 2100 | loss 1.9302 | step time 40.76ms
+step 2110 | loss 1.8117 | step time 39.71ms
+step 2120 | loss 1.8463 | step time 38.25ms
+step 2130 | loss 1.9953 | step time 38.41ms
+step 2140 | loss 1.9256 | step time 38.30ms
+step 2150 | loss 2.0586 | step time 37.93ms
+step 2160 | loss 1.9644 | step time 38.82ms
+step 2170 | loss 1.9398 | step time 39.39ms
+step 2180 | loss 1.9905 | step time 37.99ms
+step 2190 | loss 1.9800 | step time 38.60ms
+step 2200 | loss 2.0794 | step time 38.00ms
+--------------------------------------------------------------------------------
+3 samples that are in train:
+kim
+meila
+megan
+0 samples that are in test:
+7 samples that are new:
+ettef
+amolina
+paysbn
+ogin
+elabett
+lutia
+laric
+--------------------------------------------------------------------------------
+step 2210 | loss 1.9649 | step time 40.87ms
+step 2220 | loss 2.1347 | step time 40.66ms
+step 2230 | loss 2.0261 | step time 40.67ms
+step 2240 | loss 1.8426 | step time 40.25ms
+step 2250 | loss 1.8675 | step time 40.86ms
+step 2260 | loss 1.9241 | step time 40.14ms
+step 2270 | loss 1.8932 | step time 40.76ms
+step 2280 | loss 2.0047 | step time 40.22ms
+step 2290 | loss 1.9965 | step time 40.37ms
+step 2300 | loss 1.9480 | step time 40.43ms
+step 2310 | loss 1.9255 | step time 40.35ms
+step 2320 | loss 1.9170 | step time 40.25ms
+step 2330 | loss 1.9119 | step time 40.94ms
+step 2340 | loss 2.1187 | step time 40.88ms
+step 2350 | loss 1.9663 | step time 40.06ms
+step 2360 | loss 1.9319 | step time 40.12ms
+step 2370 | loss 1.9510 | step time 40.50ms
+step 2380 | loss 2.0679 | step time 39.85ms
+step 2390 | loss 1.8420 | step time 39.69ms
+step 2400 | loss 1.9015 | step time 40.28ms
+--------------------------------------------------------------------------------
+1 samples that are in train:
+leiana
+0 samples that are in test:
+9 samples that are new:
+maiden
+annallola
+danyu
+clezem
+clayz
+derryck
+jelzie
+favisya
+delma
+--------------------------------------------------------------------------------
+step 2410 | loss 1.9561 | step time 40.28ms
+step 2420 | loss 2.1512 | step time 39.31ms
+step 2430 | loss 2.0182 | step time 39.89ms
+step 2440 | loss 1.9575 | step time 39.41ms
+step 2450 | loss 2.1581 | step time 38.91ms
+step 2460 | loss 1.9294 | step time 38.67ms
+step 2470 | loss 1.9635 | step time 38.93ms
+step 2480 | loss 1.9591 | step time 39.49ms
+step 2490 | loss 1.8035 | step time 40.78ms
+step 2500 | loss 1.9963 | step time 38.04ms
+step 2500 train loss: 1.9181857109069824 test loss: 1.9886211156845093
+test loss 1.9886211156845093 is the best so far, saving model to out/model.pt
+step 2510 | loss 1.9915 | step time 38.82ms
+step 2520 | loss 2.0505 | step time 39.66ms
+step 2530 | loss 1.9258 | step time 38.50ms
+step 2540 | loss 2.0456 | step time 39.57ms
+step 2550 | loss 1.9763 | step time 39.59ms
+step 2560 | loss 1.9221 | step time 43.78ms
+step 2570 | loss 1.9432 | step time 40.50ms
+step 2580 | loss 1.9399 | step time 40.37ms
+step 2590 | loss 1.9526 | step time 39.53ms
+step 2600 | loss 1.8869 | step time 39.44ms
+--------------------------------------------------------------------------------
+3 samples that are in train:
+rea
+divit
+cobin
+0 samples that are in test:
+7 samples that are new:
+jaimonne
+kiairo
+reennevi
+hasiah
+arovn
+kammur
+chasriha
+--------------------------------------------------------------------------------
+step 2610 | loss 1.9610 | step time 39.58ms
+step 2620 | loss 1.9546 | step time 40.42ms
+step 2630 | loss 2.0097 | step time 39.02ms
+step 2640 | loss 1.9255 | step time 38.92ms
+step 2650 | loss 1.9106 | step time 39.97ms
+step 2660 | loss 1.9915 | step time 39.71ms
+step 2670 | loss 1.9089 | step time 40.50ms
+step 2680 | loss 1.9490 | step time 39.11ms
+step 2690 | loss 1.8887 | step time 39.24ms
+step 2700 | loss 1.9643 | step time 40.14ms
+step 2710 | loss 1.8674 | step time 39.80ms
+step 2720 | loss 1.9041 | step time 39.64ms
+step 2730 | loss 2.0133 | step time 40.04ms
+step 2740 | loss 1.9026 | step time 40.37ms
+step 2750 | loss 1.8395 | step time 39.46ms
+step 2760 | loss 1.7738 | step time 39.55ms
+step 2770 | loss 1.9812 | step time 39.16ms
+step 2780 | loss 1.8703 | step time 38.91ms
+step 2790 | loss 1.8471 | step time 39.94ms
+step 2800 | loss 1.8382 | step time 39.51ms
+--------------------------------------------------------------------------------
+4 samples that are in train:
+annalina
+jamari
+kasper
+calley
+0 samples that are in test:
+6 samples that are new:
+bra
+lydae
+mgns
+garriet
+keltyn
+chakeb
+--------------------------------------------------------------------------------
+step 2810 | loss 1.7641 | step time 40.00ms
+step 2820 | loss 1.8842 | step time 40.18ms
+step 2830 | loss 2.0449 | step time 39.24ms
+step 2840 | loss 1.9288 | step time 40.36ms
+step 2850 | loss 2.0050 | step time 39.76ms
+step 2860 | loss 1.9278 | step time 40.01ms
+step 2870 | loss 1.8635 | step time 39.82ms
+step 2880 | loss 1.8318 | step time 40.32ms
+step 2890 | loss 1.8294 | step time 40.05ms
+step 2900 | loss 1.9245 | step time 39.38ms
+step 2910 | loss 1.7174 | step time 40.30ms
+step 2920 | loss 1.8637 | step time 40.11ms
+step 2930 | loss 1.9966 | step time 40.41ms
+step 2940 | loss 1.9227 | step time 40.07ms
+step 2950 | loss 2.0546 | step time 40.02ms
+step 2960 | loss 1.8271 | step time 40.95ms
+step 2970 | loss 1.8913 | step time 39.65ms
+step 2980 | loss 1.8749 | step time 40.08ms
+step 2990 | loss 1.9082 | step time 39.26ms
