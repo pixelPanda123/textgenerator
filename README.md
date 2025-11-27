@@ -1,4 +1,4 @@
-# Makemore (Transformer-only)
+# Makemore 
 
 This project trains a character-level Transformer language model on  and generates new name-like strings.
 
